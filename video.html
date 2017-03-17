@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+	<html lang="fr">
+		<head>
+			<title>Explication de la balise VIDEO en HTML</title>
+			<!-- Connection au CSS -->
+			<link type="text/CSS" rel="stylesheet" href="css/stylesheetmarine.css">
+			<!-- Les balises meta -->
+			<meta charset="utf-8"/>
+			<meta name="description" content="Dans le langage HTML, la balise VIDEO est une toute nouvelle addition au HTML5 et vous permet, vous le devinerez, de visionner un film sur votre site Web."/>
+			<meta name="keywords" content="langage, HTML, HTML5, balise, VIDEO, mp4, ogv, webm, attributs, src, type, autoplay, controls, loop, height, width, web"/>
+			<meta name="robots" content="all"/>
+			<meta http-equiv="cache-control" content="public"/>
+			<meta http-equiv="expires" content="Wed, 29 Mar 2017 17:00:00 GMT"/>
+			<!-- Le favicon -->
+			<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+			<link rel="icon" href="images/favicon/favicon.png" type="image/png">
+			<link rel="icon" sizes="32x32" href="images/favicon/favicon-32.png" type="image/png">
+			<link rel="icon" sizes="64x64" href="images/favicon/favicon-64.png" type="image/png">
+			<link rel="icon" sizes="96x96" href="images/favicon/favicon-96.png" type="image/png">
+			<link rel="icon" sizes="196x196" href="images/favicon/favicon-196.png" type="image/png">
+			<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
+			<meta name="msapplication-TileImage" content="favicon-144.png">
+			<meta name="msapplication-TileColor" content="#FFFFFF">
+			<link rel="icon" href="images/favicon/animated_favicon.gif" type="image/gif">
+			<!-- Google fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+			<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  
+			<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		</head>
+
+		<body>
+			<header>
+				<div id="bandeaumenu">
+					<div id="logohtml"><a href="index.html">HTML</a></div>
+					<div id="menu">
+						<nav>
+							<ul>
+								<li><a href="html.html">HTML</a></li>
+								<li><a href="head.html">HEAD</a></li>
+								<li><a href="body.html">BODY</a></li>
+								<li><a href="meta.html">META</a></li>
+								<li><a href="div.html">DIV</a></li>
+								<li class="active"><a href="video.html" class="active">VIDEO</a></li>
+								<li><a href="title.html">TITLE</a></li>
+								<li><a href="p.html">P</a></li>
+								<li><a href="hn.html">HN</a></li>
+								<li><a href="a.html">A</a></li>
+								<li><a href="section.html">SECTION</a></li>
+								<li><a href="nav.html">NAV</a></li>
+								<li><a href="header.html">HEADER</a></li>
+								<li><a href="footer.html">FOOTER</a></li>
+								<li><a href="aside.html">ASIDE</a></li>
+								<li><a href="img.html">IMG</a></li>
+								<li><a href="ul.html">UL</a></li>
+								<li><a href="ol.html">OL</a></li>
+								<li><a href="em.html">EM</a></li>
+								<li><a href="strong.html">STRONG</a></li>
+								<li><a href="span.html">SPAN</a></li>
+							</ul>
+						</nav>
+			</header>
+
+			<section>
+				<article>
+					<header>
+						<h2>BALISE &lt;VIDEO&gt;</h2>
+					</header>
+					<h3>DESCRIPTION</h3>
+					<p>La balise &lt;VIDEO&gt; est une toute nouvelle addition au HTML5 et vous permet, vous le devinerez, de visionner un film sur votre site Web. Les données reliées à cette balise sont normalement des vidéos, mais peuvent aussi inclure des images ou des données sonores.</p>
+					<h3>ATTRIBUTS</h3>
+					<table>
+						<tr>
+							<th scope="col">ATTRIBUTS</th>
+							<th scope="col">DESIGNATION</th>
+							<th scope="col">UNITE ACCEPTEE</th>
+						</tr>
+						<tr>
+							<td>src</td>
+							<td>L'attribut qui permet d'entrer l'adresse du fichier vidéo.</td>
+							<td>URL</td>
+						</tr>
+						<tr>
+							<td>type</td>
+							<td>Il est conseillé de mettre plusieurs formats différents en indiquant l'extension de chaque source grâce à l'attribut type.</td>
+							<td>video/mp4 ; video/webm ; video/ogg ;...</td>
+						</tr>
+						<tr>
+							<td>autoplay</td>
+							<td>Un attribut qui vous permet d’activer le vidéo dès que la page est téléchargée.</td>
+							<td>Booléen</td>
+						</tr>
+						<tr>
+							<td>poster</td>
+							<td>permet d'indiquer une image à afficher par défaut dans l'espace réservé par la vidéo, avant que la lecture de celle-ci ne soit lancée.</td>
+							<td>URL</td>
+						</tr>
+						<tr>
+							<td>controls</td>
+							<td>L'attribut controls donne accès aux contrôles de lecture (boutons de navigation, volume, etc, selon les possibilités du navigateur), ou les masque s'il est omis.</td>
+							<td>controls="controls"</td>
+						</tr>
+						<tr>
+							<td>loop</td>
+							<td>Cet attribut indique que la vidéo doit être jouée en boucle.</td>
+							<td>Booléen</td>
+						</tr>
+						<tr>
+							<td>width</td>
+							<td>La largeur de la zone où afficher la vidéo.</td>
+							<td>px</td>
+						</tr>
+						<tr>
+							<td>height</td>
+							<td>La hauteur de la zone où afficher la vidéo.</td>
+							<td>px</td>
+						</tr>
+					</table>
+					<h3>EXEMPLE</h3>
+					<code>
+						<p>&lt;<span class="rose">video</span> <span class="vert">width</span>=<span class="jaune">"400"</span> <span class="vert">height</span>=<span class="jaune">"222"</span> <span class="vert">controls</span>=<span class="jaune">"controls"</span>&gt;</p>
+						<p class="alinea">&lt;<span class="rose">source</span> <span class="vert">src</span>=<span class="jaune">"video.mp4"</span> <span class="vert">type</span>=<span class="jaune">"video/mp4"</span>/&gt;</p>
+						<p class="alinea">&lt;<span class="rose">source</span> <span class="vert">src</span>=<span class="jaune">"video.webm"</span> <span class="vert">type</span>=<span class="jaune">"video/webm"</span>/&gt;</p>
+						<p class="alinea">&lt;<span class="rose">source</span> <span class="vert">src</span>=<span class="jaune">"video.ogv"</span> <span class="vert">type</span>=<span class="jaune">"video/ogg"</span>/&gt;</p>
+						<p>&lt;/<span class="rose">video</span>&gt;</p>
+					</code>
+				</article>
+			</section>
+
+			<footer>
+				<p>Projet M M M C</p>
+			</footer>
+			
+		</body>
+	</html>

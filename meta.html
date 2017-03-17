@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+	<html lang="fr">
+		<head>
+			<title>Explication de la balise META en HTML</title>
+			<!-- Connection au CSS -->
+			<link type="text/CSS" rel="stylesheet" href="css/stylesheetmarine.css">
+			<!-- Les balises meta -->
+			<meta charset="utf-8"/>
+			<meta name="description" content="Dans le langage HTML, les balises META servent à placer des métadonnées dans une page HTML. Le type de métadonnées est défini par les différents attributs que l'on peut utliser."/>
+			<meta name="keywords" content="langage, HTML, HTML5, balise, META, charset, description, keywords, title, copyright, robots, index, web"/>
+			<meta name="robots" content="all"/>
+			<meta http-equiv="cache-control" content="public"/>
+			<meta http-equiv="expires" content="Wed, 29 Mar 2017 17:00:00 GMT"/> 
+			<!-- Les balises pour le favicon -->
+			<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+			<link rel="icon" href="images/favicon/favicon.png" type="image/png">
+			<link rel="icon" sizes="32x32" href="images/favicon/favicon-32.png" type="image/png">
+			<link rel="icon" sizes="64x64" href="images/favicon/favicon-64.png" type="image/png">
+			<link rel="icon" sizes="96x96" href="images/favicon/favicon-96.png" type="image/png">
+			<link rel="icon" sizes="196x196" href="images/favicon/favicon-196.png" type="image/png">
+			<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
+			<meta name="msapplication-TileImage" content="favicon-144.png">
+			<meta name="msapplication-TileColor" content="#FFFFFF">
+			<link rel="icon" href="images/favicon/animated_favicon.gif" type="image/gif">
+			<!-- Media queries -->
+			<link href="styles.css" rel="stylesheet" media="all and (max-width: 1024px)">
+			<!-- Google fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+			<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">  
+			<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"> 
+		</head>
+
+		<body>
+				
+			<header>
+				<div id="bandeaumenu">
+					<div id="logohtml">
+						<a href="index.html">HTML</a>
+					</div>
+					<div id="menu">
+						<nav>
+							<ul>
+								<li><a href="html.html">HTML</a></li>
+								<li><a href="head.html">HEAD</a></li>
+								<li><a href="body.html">BODY</a></li>
+								<li class="active"><a href="meta.html" class="active">META</a></li>
+								<li><a href="div.html">DIV</a></li>
+								<li><a href="video.html">VIDEO</a></li>
+								<li><a href="title.html">TITLE</a></li>
+								<li><a href="p.html">P</a></li>
+								<li><a href="hn.html">HN</a></li>
+								<li><a href="a.html">A</a></li>
+								<li><a href="section.html">SECTION</a></li>
+								<li><a href="nav.html">NAV</a></li>
+								<li><a href="header.html">HEADER</a></li>
+								<li><a href="footer.html">FOOTER</a></li>
+								<li><a href="aside.html">ASIDE</a></li>
+								<li><a href="img.html">IMG</a></li>
+								<li><a href="ul.html">UL</a></li>
+								<li><a href="ol.html">OL</a></li>
+								<li><a href="em.html">EM</a></li>
+								<li><a href="strong.html">STRONG</a></li>
+								<li><a href="span.html">SPAN</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+			<section>
+				<article>
+					<header>
+						<h2>BALISE &lt;META&gt;</h2>
+					</header>
+					<h3>DESCRIPTION</h3>
+
+					<p>Les balises &lt;META&gt; servent à placer des métadonnées (metadata) dans une page HTML. On placera ces informations dans l’élément head, et elles ne seront pas affichées sur la page. Elles sont destinées aux navigateurs web, aux moteurs de recherche; et plus largement, à tous les outils d’indexation, c’est-à-dire tous les outils qui analysent vos pages pour y identifier diverses informations.</p>
+					
+					<h3>ATTRIBUTS</h3>
+					<table>
+						<tr>
+							<th scope="col">ATTRIBUTS</th>
+							<th scope="col">DESIGNATION</th>
+							<th scope="col">UNITE ACCEPTEE</th>
+						</tr>
+						<tr>
+							<td>charset</td>
+							<td>Permet de spécifier aux navigateurs le format d’encodage de vos pages web. Il est préférable d’utiliser le format UTF-8 qui supporte une grande variété de langages (même mélangés au sein d’une même page) et prend en compte les caractères spéciaux comme les accents.</td>
+							<td>UTF-8</td>
+						</tr>
+						<tr>
+							<td>http-equiv="Content-Language"</td>
+							<td>Il indique la ou les langues du site.</td>
+							<td>content="fr"</td>
+						</tr>
+						<tr>
+							<td>name="keywords"</td>
+							<td>Informe les moteurs du contenu du site avec des mots-clés* (maximum 1000 caractères).</td>
+							<td> content= "ici les mots clés séparés par des virgules"</td>
+						</tr>
+						<tr>
+							<td>name="Description"</td>
+							<td>Cet attribut indique la description du site (maximum 200 caractères).</td>
+							<td>content = "ici la description du site."</td>
+						</tr>
+						<tr>
+							<td>name="Copyright"</td>
+							<td>Permet de poser un copyright.</td>
+							<td>Content = "ici le nom du copyright"</td>
+						</tr>
+					</table>
+
+					<h3>EXEMPLE</h3>
+					<div class="conteneur">
+						<code>
+							<p>&lt;<span class="rose">head</span>&gt;</p>
+							<p class="alinea">&lt;<span class="rose">title</span>&gt;META&lt;/<span class="rose">title</span>&gt;</p>
+							<p>&lt;/<span class="rose">head</span>&gt;</p>
+							<br>
+							<p>&lt;<span class="rose">body</span>&gt;</p>
+							<p class="alinea">&lt;<span class="rose">p</span>&gt; Un exemple de code pour montrer l'utilité de la balise meta. Les accents comme é, è, à,... ainsi que les caractères spéciaux comme &, $, €,... ne s'affichent pas correctement sans la balise.&lt;/<span class="rose">p</span>&gt;</p>
+							<p>&lt;/<span class="rose">body</span>&gt;</p>
+						</code>
+						<p><img class="imageexemple" src="images/exemplemeta_internet1.png" width="517" height="156" alt="Le résultat du code n'utilisant pas la balise meta."></p>
+					</div>
+					<br>
+					<div class="conteneur">
+						<code>
+							<p>&lt;<span class="rose">head</span>&gt;</p>
+							<p class="alinea">&lt;<span class="rose">meta</span> <span class="vert">charset</span>=<span class="jaune">"utf-8"</span>/&gt;</p>
+							<p class="alinea">&lt;<span class="rose">title</span>&gt;META&lt;/<span class="rose">title</span>&gt;</p>
+							<p>&lt;/<span class="rose">head</span>&gt;</p>
+							<br>
+							<p>&lt;<span class="rose">body</span>&gt;</p>
+							<p class="alinea">&lt;<span class="rose">p</span>&gt; Un exemple de code pour montrer l'utilité de la balise meta. Les accents comme é, è, à,... ainsi que les caractères spéciaux comme &, $, €,... ne s'affichent pas correctement sans la balise.&lt;/<span class="rose">p</span>&gt;</p>
+							<p>&lt;/<span class="rose">body</span>&gt;</p>
+						</code>
+						<p><img class="imageexemple" src="images/exemplemeta_internet2.png" width="516" height="157" alt="Le résultat du code utilisant la balise meta."></p>
+					</div>
+					<div id="bouton">
+					<p id="savoirplus"><a href="http://www.rankspirit.com/balises.php" target="_blank">En savoir plus...</a></p>
+					</div>
+				</article>
+			</section>
+
+			<footer>
+				<p>Projet M M M C</p>
+			</footer>
+		</body>
+	</html>
