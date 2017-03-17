@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://localhost/index.html">
+
+ <url>
+  <loc>http://localhost/index.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url> 
+
+ <url>
+  <loc>http://localhost/head.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/body.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/meta.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/div.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/video.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://http://localhost/title/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url> 
+
+  <url>
+  <loc>http://localhost/p.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://http://localhost/hn/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/a.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/section.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/nav.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/header.html</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/footer.html</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/aside.html</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/img.html</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://http://http://localhost/ul/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://http://localhost/ol/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/em.html/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http://localhost/strong.html</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+ <url>
+  <loc>http:/http://http://localhost/span/</loc>
+  <lastmod>2017-03-01</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+ </url>
+
+</urlset>
