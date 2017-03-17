@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	padding-top: 100px;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+#backnav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #171c30;
+	display: flex;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 10;
+}
+
+#container {
+	display: flex;
+	width: 1560px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0;
+}
+
+#logohtml {
+	width: 250px;
+	font: 30px "Playfair Display", serif;
+}
+
+#menu {
+	font: 20px "Source Sans Pro", sans-serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none; 
+	display: flex;
+	flex: row;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+ul > li { 
+	margin-left: 10px; 
+}
+
+ul > li:first-child {
+	margin-left: 0;
+}
+
+section {
+	background-color: #171c30;
+	bottom: 0;
+	right:0;
+	width: 100%;
+	height: 70%;
+	margin-top: 204px;
+	min-height: 800px;
+}
+
+article {
+	width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-left: 250px;
+	padding-right: 200px;
+}
+
+article > header {
+	position: relative;
+	top: -55px;
+}
+
+article > header > h2 {
+	font: 40px "Playfair Display", serif;
+	font-weight: bold;
+	color: white;
+	border-bottom: 2px solid #fdc689;
+	width: 300px;
+}
+
+h3 {
+	font: 30px "Playfair Display", serif;
+	font-weight: bold;
+	color: #fdc689;
+}
+
+table {
+	border: 2px solid #fdc689;
+	font: 14px "Source sans pro", sans-serif;
+	color: white;
+	margin-bottom: 80px;
+	padding-bottom: 20px;
+}
+
+td:nth-child(odd) {
+	padding:0px 15px;
+}
+
+th:nth-child(odd) {
+	padding: 0px 15px;
+}
+
+th {
+	border-bottom: 2px dotted #fdc689;
+	text-align: left;
+}
+
+td {
+	text-align: left;
+}
+
+tr > td:nth-child(2), tr > th:nth-child(2) {
+	padding-left: 58px;
+}
+
+tr:nth-child(2) > td { 
+	padding-bottom: 25px;
+ }
+
+ tr > td:nth-child(3), tr > th:nth-child(3) {
+	padding-left: 58px;
+
+}
+
+#containerexemple {
+	display: flex;
+	flex-direction: row;
+}
+
+p {
+	font: 18px "Source sans pro", sans-serif;
+	color: white;
+}
+
+footer {
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	padding: 90px 0;
+}
+
+footer > p {
+	font: 15px "playfair display", serif;
+	color: #3f3b4c;
+	margin: 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
